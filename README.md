@@ -1,0 +1,3 @@
+# PHP strpos() Loose Comparison Bug
+
+This repository demonstrates a common yet subtle bug in PHP related to the `strpos()` function and loose comparisons.  The code incorrectly uses `==` to check if a needle is found at the beginning of a haystack, leading to false positives when the needle is not present.  The solution highlights the importance of using strict comparison (`===`) to avoid this type of error.  This is a great example of the pitfalls of type juggling in PHP and the benefits of employing strict type checking.
